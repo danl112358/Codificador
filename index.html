@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/CC/</h1>
+                    <nav id="nav">
+                        <ul class="pestañas">
+                            <li><a href="inicio">A-M-Z</a></li>
+                            <li><a href="codificador">Text</a></li>
+                            <li><a href="dow">Descargar</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </header>
+            <div class="imagenes">
+                <div class="imganes">
+                    <img src="imagenes/746199.jpg" width="400px" alt="" id="imagen">
+                    <p>
+                        <input type="button" value="Mostrar el codigo" onclick="modificarImagen();" ondblclick="regresarImagen();"/>
+                    </p>
+                    <h2>Imagen de referencia</h2>
+
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </section>
+    <section id="codificador" >
+        <h1>TXT PARA CODIFICAR</h1>
+        <label for="areaTexto" >Escribe tu texto:</label>
+        <textarea name="text" id="areaTexto" cols="30" rows="10"></textarea>
+        <button  onclick="convertirLetrasANumeros(); guardarComoTexto();" >Guardar texto codificado</button> 
+        <button onclick="convertirNumerosALetras(); guardarTextoEnArchivo();">Guardar numeros decodificados </button> 
+        <label for="cargarArchivo"></label>
+        <script>
+ 
+
+    </script>
+
+
+    </section>
+    <section id="dow">
+        <div class="contenido">
+            <h1>Cargar para decodificar</h1>
+            <label for="cargarArchivo">Cargar archivo:</label>
+            <input type="file" accept=".txt" id="cargarArchivo" onchange="leerArchivo();">
+            <button onclick="limpiarArchivo();">Eliminar</button>
+            <div id="contenidoArchivo"></div>
+
+            <script>
+            </script>
+        </div>
+    </section>
+
+    
+</body>d
+</html>

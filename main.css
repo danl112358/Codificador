@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+#inicio {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imagenes/475527.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: white;
+}
+
+#inicio .contenido header {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 100%;
+  top: 0%;
+}
+
+#inicio .contenido header .contenido-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: #fff;
+  margin: 1000px 12px;
+  font-weight: 400;
+  transition: 0.5%;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+  color: #B0A1BA;
+}
+
+#inicio .contenido .imagenes {
+  color: white;
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 10px;
+  font-weight: 10px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+#codificador h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+#codificador label {
+  font-family: "Roboto", sans-serif;
+}
+
+#codificador button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200px;
+}
+
+#codificador {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#codificador textarea {
+  width: 80%;
+  min-height: 75%;
+  resize: none;
+  font-size: 25px;
+}
+
+#dow {
+  text-align: center;
+  padding: 50px;
+  background-color: #f3f3f3; /* Ajusta el color de fondo según tus preferencias */
+}
+
+#dow .contenido {
+  max-width: 600px;
+  margin: auto;
+}
+
+#contenidoArchivo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#contenidoArchivo input {
+  margin-right: 10px;
+}
+
+#contenidoArchivo {
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
